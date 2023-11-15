@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Little Lemon</title>
+
+  <meta property="og:title" content="Our Menu">
+  <meta property="og:type"  content="website">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:url"   content="https://littlelemon/">
+  <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Little Lemon">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="littlelemon/logo.png">
+  </header>
+  <main>
+    <form>
+      <div>
+        <video width="320" height="200" controls>
+          <source src="littlelemon/video.mp4" type="video/mp4" >
+        </video><br>
+        <label for="rating">Rating</label>
+        <input type="range" id="rating" name="rating" min="1" max="5" value="rating">
+        <datalist id="rating">
+          <option value="1" label="1"></option>
+          <option value="2"></option>
+          <option value="3 "></option>
+          <option value="4"></option>
+          <option value="5" label="5"></option>
+        </datalist><br>
+        <button type="submit">Submit Rating</button>
+      </div>
+         <div>
+    <label for="email">Email Address: </label>
+    <input type="email" id="email" required >
+        </div>
+        <div>
+    <label for="date">Date of Booking:</label>
+    <input type="date" id="date" required >
+        </div>
+        <div>
+          <label for="people_number">Number of People</label>
+          <input type="Number" id="people_number" name="people_number" required min="0" max="10">
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" id="terms_and_conditions" required>
+            I agree to the cancellation policy</label>
+          
+
+        </div>
+      <button type="submit">Book Now</button>
+    </form>
+    <style>
+    input:focus:invalid {
+      color: blue;
+      border: blue 3px solid;
+     }</style>
+
+    <footer>
+      <p>Copyright Little Lemon</p>
+    </footer>
+  </main>
+</body>
+
+</html>
+
+<!--<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little Lemon</title>
+        <meta property="og:title" content="Little Lemon Cafe">
+        <meta property="og:type"  content="website">   
+        <meta property="og:url" content="https://littlelemon/">
+        <meta property="og:image" content="littlelemon\logo.png">
+        <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist">
+
+    </head>
+    <body>
+        <header>
+            <img src="littlelemon/logo.png">
+        </header>
+        <main>
+            <h3>Glimpse of the cafe</h3>
+            <video width="320" controls>
+                <source src="littlelemon/video.mp4" type="video/mp4">
+                
+            </video>
+            <form method="post">
+                <div>
+                   <label for="username" >Username</label>
+                   <input type="text" id="username" name="username" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" required minlength="7">
+                </div>
+                <div>
+                    <label for="booking-location">Booking Location</label>
+                    <input id="booking-location" list="locations" required>
+                    <datalist id="locations">
+                        <option value="Downtown"></option>
+                        <option value="Uptown"></option>
+                    </datalist>
+                </div>
+                <div>
+                    <label for="number">Number of people</label>
+                    <input type="number" id="number" min="1" max="10" required>
+                </div>
+                <div>
+                <fieldset id="location">
+                    
+                    <input type="radio" value="Indoors" size="location">Indoors
+                    <input type="radio" value="Outdoors" size="location">Outdoors
+                </fieldset>
+                </div>
+                <div>
+                    <label for="date">Date of Booking</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" required>
+                        I agree to the cancellation policy
+                    </label>
+                
+                </div>
+                <button type="submit" >Submit Booking</button>
+            </form>
+            <style>
+                input:focus:invalid{
+                    border: blue 3px solid;
+                }
+            </style>
+        </main>
+        <footer>
+            Copyrights Little Lemon
+        </footer>
+    </body>
+</html>
+-->

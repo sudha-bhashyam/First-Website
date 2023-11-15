@@ -1,0 +1,47 @@
+head{
+    color: rgb(127, 146, 253);
+}
+
+body{
+    color: rgb(63, 55, 55);
+    background-color :antiquewhite;
+    
+    
+}
+
+#location{
+    padding-bottom: 2px;
+    border: 2px black ;
+}
+.menu-table, th, tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-width: 0.52mm;
+    
+}
+#foods{
+    display: block;
+    
+    padding: 20px;
+    margin-top: 10px;
+    width: 50%;
+    margin: auto;
+
+}
+#chicburger{
+    width: 200px;
+    border: black 1px solid;
+    border-radius: 2mm;
+}
+#bbqburge{
+    width: 200px;
+    border: black 1px solid;
+    border-radius: 2mm;
+
+}
+#soda{
+    width: 200px;
+    border: black 1px solid;
+    border-radius: 2mm;
+
+}
