@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <header>
+        <link rel="stylesheet" href="book.css">
+        <img src="littlelemon-logoa\Asset 16@4x.png" width="300px">
+    </header>
+    </head>
+    <body>
+        <form>
+        <h1>Book a Table</h1>
+        <p>Elevate your dining experience with a reserved table at our restaurant. Ensure your spot for an unforgettable culinary journey. Book now to secure a seat and indulge in gastronomic delight.</p>
+       <div>
+        <label for="username">Full name</label><br>
+        <input type="username" id="Username" required minlength="5">
+    </div>
+    <div>
+        <label for="phone-number">Mobile Number</label><br>
+        <input type="number" id="phone-number" required minlength="10" maxlength="10">
+
+    </div>
+    <div>
+        <label for="email">Email Id</label><br>
+        <input type="email" id="email" required >
+    </div>
+    <div>
+        <label for="date">Arrival Date and Time</label><br>
+        <input type="date" id="date" required>
+        <input type="time" required>
+
+    </div>
+    <div>
+        <label for="guests">Number of Guests</label>
+        <br>
+        <input type="number" id="guests" required><br></div>
+        <div>
+        <label for="kids">Number of kids(if any)</label><br>
+        <input type="number" id="kids" required><br>
+        
+    </div>
+    <div>
+        <label for="request">Do you have any special request?</label><br>
+        <textarea type="text" id="request" rows="4" columns="1"></textarea>
+    </div>
+    <div>
+        <input type="checkbox" id="agreeCheckbox" name="agree">
+        <label for="agreeCheckbox">I agree to the terms and conditions</label><br>
+
+        
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+        </form>
+    </body>
+</html>

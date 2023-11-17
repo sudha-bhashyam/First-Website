@@ -1,0 +1,104 @@
+body{
+    background-color: #edefee;
+    font-family:serif;
+    margin-top: 3rem;
+    margin-bottom:3rem;
+    margin-left:5%;
+    margin-right:5%;
+}
+h1{
+    font-size:3rem;
+}
+h2{
+    font-size:2rem;
+}
+header > img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav ul{
+    
+    list-style: none;
+    text-align: center;
+   
+}
+nav li{
+    display: inline-block; 
+    padding-left: 30px;
+    
+}
+.navi{
+    display: block;
+    background-color: #BECCFC;
+    border-radius: 20px;
+    
+    
+}
+section{
+    display: flex;
+    
+}
+article{
+    flex: 1;
+}
+.first>h1{
+    color:white;
+    text-shadow: 2px 2px gray;
+}
+.first>p{
+    color:white;
+    text-shadow: 2px 2px gray;
+    padding-top: -10px
+}
+.first{
+    display: block;
+    background-image: url('/jewelery/pasta.jpg');
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    margin-bottom: 20px;
+}
+article{
+    width: 250px;
+}
+.third{
+    margin-left:2rem;
+    
+    background-color: #FDE4E6 ;
+    border-radius: 0.5rem;
+    text-align:center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top:10px;
+    
+
+}
+footer {
+    display:flex;
+    padding-top: 40px;
+}
+footer div{
+    flex: 2;
+}
+.barbecue{
+  
+    max-width:100%;
+    max-height: 9cm;
+    display: block;
+    margin:auto;
+}
+.plate{
+    max-width:90%;
+    max-height: cm;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+div > h5{
+    border-top: 2px solid #000; /* Set the line color and thickness */
+      padding-top: 5px;
+      padding-left: 250px;
+}
